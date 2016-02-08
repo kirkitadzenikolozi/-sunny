@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pager_titles">
+        <item>Forecast</item>
+        <item>Map</item>
+    </string-array>
+
+
+    <string-array name="cities">
+        <item>Tbilisi</item>
+        <item>Kutaisi</item>
+        <item>Batumi</item>
+        <item>Rustavi</item>
+        <item>Zugdidi</item>
+        <item>Gori</item>
+        <item>Poti</item>
+        <item>Samtredia</item>
+        <item>Khashuri</item>
+        <item>Senaki</item>
+        <item>Zestafoni</item>
+        <item>Marneuli</item>
+        <item>Telavi</item>
+        <item>Akhaltsikhe</item>
+        <item>Kobuleti</item>
+        <item>Ozurgeti</item>
+        <item>Tsqaltubo</item>
+        <item>Kaspi კასპი</item>
+        <item>Gardabani</item>
+        <item>Chiatura</item>
+        <item>Tqibuli</item>
+        <item>Borjomi</item>
+        <item>Sagarejo</item>
+        <item>Bolnisi</item>
+        <item>Khoni</item>
+        <item>Gurjaani</item>
+        <item>Akhalkalaki</item>
+        <item>Tsalenjikha</item>
+        <item>Qvareli</item>
+        <item>Akhmeta</item>
+        <item>Mtskheta</item>
+        <item>Kareli</item>
+        <item>Lanchkhuti</item>
+        <item>Lagodekhi</item>
+        <item>Dedoplistsqaro</item>
+        <item>Dusheti</item>
+        <item>Sachkhere</item>
+        <item>Abasha</item>
+        <item>Tsnori</item>
+        <item>Ninotsminda</item>
+        <item>Terjola</item>
+        <item>Martvili</item>
+        <item>Vale</item>
+        <item>Jvari</item>
+        <item>Baghdati</item>
+        <item>Vani</item>
+        <item>Tetritsqaro</item>
+        <item>Dmanisi</item>
+        <item>Oni</item>
+        <item>Anaklia</item>
+        <item>Ambrolauri</item>
+        <item>Sighnaghi</item>
+        <item>Tsalka</item>
+        <item>Tsageri</item>
+
+    </string-array>
+
+</resources>

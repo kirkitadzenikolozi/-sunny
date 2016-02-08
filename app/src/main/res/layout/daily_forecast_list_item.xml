@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableRow"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:background="#ffffff"
+    android:elevation="5dp"
+    android:minHeight="100dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/daily_forecast_list_item_day_of_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Monday"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/daily_forecast_list_item_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/daily_forecast_list_item_day_of_week"
+            android:layout_marginLeft="10dp"
+            android:text="Clear day"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/daily_forecast_list_item_temperature_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20°"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/daily_forecast_list_item_temperature_min"
+                android:text="min" />
+
+
+            <TextView
+                android:id="@+id/daily_forecast_list_item_temperature_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20°"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/daily_forecast_list_item_temperature_max"
+                android:text="max" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

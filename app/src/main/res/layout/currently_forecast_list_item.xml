@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:elevation="7dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/currently_forecast_list_item_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Tbilisi"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/currently_forecast_list_item_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currently_forecast_list_item_city"
+        android:layout_marginLeft="5dp"
+        android:text="20°"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/currently_forecast_list_item_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/currently_forecast_list_item_date"
+        android:layout_width="wrap_content"
+        android:text="4 Monday"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@id/currently_forecast_list_item_temperature"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/currently_forecast_list_item_summary"
+        android:layout_width="wrap_content"
+        android:text="Clear"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/currently_forecast_list_item_date"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
