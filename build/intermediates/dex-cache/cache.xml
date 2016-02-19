@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/kirkita/Documents/-sunny/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8f9bcee3fb3b40ab290c2475edb72baec0a2003f">
+        <dex dex="/Users/kirkita/Documents/-sunny/app/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_5a2e6a0ad99eacd2dcfa308479782e6d2a530f65/classes.dex" />
+    </item>
+    <item
+        jar="/Users/kirkita/Documents/-sunny/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="457c3072200ebe505fcdfafffd9017c6d9b0159a">
+        <dex dex="/Users/kirkita/Documents/-sunny/app/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_dd3c2b301c7f94149719f2ecffacd2eb0065ed62/classes.dex" />
+    </item>
+
+</items>

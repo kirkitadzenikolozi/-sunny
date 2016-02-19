@@ -110,7 +110,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
-                CurrentlyForecastFragment.searchCityForecast(MainActivity.this, searchInputATV.getText().toString().trim());
+                if (searchInputATV.getText().toString().length() != 0) {
+                    CurrentlyForecastFragment.searchCityForecast(MainActivity.this, searchInputATV.getText().toString().trim());
+                }
             }
         });
 
